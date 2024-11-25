@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simple-travel-list-app/static/css/main.ea9a0d2e.css",
+    "main.js": "/simple-travel-list-app/static/js/main.44c8ad61.js",
+    "static/media/road-trip-quotes-featured-desktop.jpg": "/simple-travel-list-app/static/media/road-trip-quotes-featured-desktop.df01f4a769679cd7c622.jpg",
+    "static/media/footer.jpg": "/simple-travel-list-app/static/media/footer.6431d0f477de12e508c0.jpg",
+    "index.html": "/simple-travel-list-app/index.html",
+    "main.ea9a0d2e.css.map": "/simple-travel-list-app/static/css/main.ea9a0d2e.css.map",
+    "main.44c8ad61.js.map": "/simple-travel-list-app/static/js/main.44c8ad61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea9a0d2e.css",
+    "static/js/main.44c8ad61.js"
+  ]
+}
