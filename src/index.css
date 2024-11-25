@@ -30,11 +30,12 @@ body {
   height: 100vh;
   display: grid;
   grid-template-rows: auto auto 1fr auto;
+  background: url("C:\Users\ramze\ProgrammingSchool\React\udeamy_react\simple-travel-list-app\public\road-trip-quotes-featured-desktop.jpg")
+    no-repeat bottom center/cover;
 }
 
 h1 {
   text-align: center;
-  background-color: #f4a226;
   font-family: "Monoton";
   font-size: 8rem;
   text-transform: uppercase;
@@ -42,10 +43,15 @@ h1 {
   word-spacing: 30px;
   letter-spacing: -5px;
   padding: 2.4rem 0;
+  color: white;
 }
 
+img {
+  width: 60px;
+  height: 60px;
+  margin-left: 30px;
+}
 .add-form {
-  background-color: #e5771f;
   padding: 2.8rem 0;
   display: flex;
   align-items: center;
@@ -78,15 +84,14 @@ input {
 }
 
 .list {
-  background-color: #5a3e2b;
-  color: #ffebb3;
+  color: #5a3e2b;
   padding: 4rem 0;
-
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   gap: 3.2rem;
   align-items: center;
+  font-weight: bold;
 }
 
 .actions button,
@@ -112,6 +117,10 @@ input {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  border: #76c7ad 2px solid;
+  border-radius: 20px;
+  background-color: #76c7ad;
+  padding: 0px 12px;
 }
 
 input[type="checkbox"] {
@@ -130,8 +139,10 @@ input[type="checkbox"] {
 }
 
 .stats {
-  background-color: #76c7ad;
+  background: url("C:\Users\ramze\ProgrammingSchool\React\udeamy_react\simple-travel-list-app\public\footer.jpg")
+    no-repeat bottom center/cover;
   text-align: center;
   font-weight: 700;
-  padding: 3.2rem 0;
+  padding: 15px 0;
+  color: white;
 }

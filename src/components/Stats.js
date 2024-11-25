@@ -1,9 +1,7 @@
 export function Stats({ items }) {
   if (!items.length) {
     return (
-      <p className="stats">
-        <em>Start adding some items to your packing list !</em>
-      </p>
+      <p className="stats">Start adding some items to your packing list !</p>
     );
   }
   const numItems = items.length;
@@ -11,11 +9,14 @@ export function Stats({ items }) {
   const percentage = Math.round((numPacked / numItems) * 100);
   return (
     <footer className="stats">
-      <em>
-        {percentage === 100
-          ? "You got everything ! Ready to go"
-          : `You have ${numItems} Items on your list, and you already packed ${numPacked} (${percentage} %)`}
-      </em>
+      {percentage === 100 ? (
+        <>
+          "You got everything ! Ready to go"{" "}
+          <img src="travel-bag.png" alt="Icon"></img>
+        </>
+      ) : (
+        `You have ${numItems} Items on your list, and you already packed ${numPacked} (${percentage} %)`
+      )}
     </footer>
   );
 }
